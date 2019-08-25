@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <style>
+        .wrapper {
+            border: 1px solid blue;
+            width: 200px;
+            height: 200px;
+            display: layout('example-layout-fragment')
+        }
+
+        .inner {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="inner"></div>
+    </div>
+    <script>
+        CSS.layoutWorklet.addModule("layout.js");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "houdini-module",
+  "version": "1.0.0",
+  "description": "一个CSS/houdini技术尝试的项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penghuwan/houdini-module.git"
+  },
+  "keywords": [
+    "css",
+    "houdini"
+  ],
+  "author": "penghuwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penghuwan/houdini-module/issues"
+  },
+  "homepage": "https://github.com/penghuwan/houdini-module#readme"
+}
